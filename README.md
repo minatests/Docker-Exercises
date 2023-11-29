@@ -21,8 +21,24 @@ If you have a Docker exercise you'd like to share, feel free to contribute! Foll
 
 1. Fork this repository.
 2. Create a new branch: 
-```bash
-   git checkout -b feature/new-exercise 
+   ```bash
+   git checkout -b feature/new-exercise
 
+
+3. Add your exercise in a new folder within the exercises directory.
+4. Write a clear and concise **README.md** for your exercise.
+5. Commit your changes:
+   ```bash
+   git commit -am 'Add new exercise
+
+6. Push to the branch: 
+   ```bash
+   git push origin feature/new-exercise
+
+7. Submit a pull request.
+
+
+## Feedback and Suggestions
+Have feedback, suggestions, or found a bug? Open an issue or reach out to me!
 
 # Happy Dockerizing! 🐳✨
