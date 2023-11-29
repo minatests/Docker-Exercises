@@ -17,11 +17,10 @@ Welcome to the FastAPI Dockerized App repository! This project demonstrates a si
 This project showcases a FastAPI application that counts the number of visits to the root endpoint. The application is Dockerized for seamless deployment and scalability.
 
 ## Project Structure
-   ```bash
-   fastapp/
-   |-- Dockerfile
-   |-- requirements.txt
-   |-- fast-app.py
+fastapp/
+├── Dockerfile
+├── requirements.txt
+└── fast-app.py
 
 - **Dockerfile:** Specifies the Docker image and configurations.
 - **requirements.txt:** Lists the Python dependencies for the FastAPI app.
