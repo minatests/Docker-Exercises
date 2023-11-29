@@ -37,16 +37,16 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/fastapi-docker-app.git
+   git clone https://github.com/minatests/fast-app.git
    cd fastapi-docker-app
    
-2. Build the Docker Image:
-  ```bash
-  docker build -t fastapi-app
+2. **Build the Docker Image:**
+   ```bash
+   docker build -t fast-app
 
-3. Run with Docker
-  ```bash
-  docker run -p 80:80 fastapi-app
+3. **Run with Docker**
+   ```bash
+   docker run -p 80:80 fast-app
   
 Visit http://localhost in your browser to see the FastAPI app in action.
 
