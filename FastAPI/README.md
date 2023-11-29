@@ -17,6 +17,7 @@ Welcome to the FastAPI Dockerized App repository! This project demonstrates a si
 This project showcases a FastAPI application that counts the number of visits to the root endpoint. The application is Dockerized for seamless deployment and scalability.
 
 ## Project Structure
+   ```bash
    fastapp/
    |-- Dockerfile
    |-- requirements.txt
@@ -50,7 +51,7 @@ Before you begin, ensure you have the following installed:
   
 Visit http://localhost in your browser to see the FastAPI app in action.
 
-###Run Locally (Without Docker)
+### Run Locally (Without Docker)
 1. **Install Dependencies:**
 
    ```bash
