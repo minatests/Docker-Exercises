@@ -1,0 +1,5 @@
+Django==3.2.8
+Pillow==8.2.0
+psycopg2-binary
+django-environ==0.6.0
+

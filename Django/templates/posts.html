@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} POSTS {% endblock %} 
+{% block content%}
+    <p>THESE ARE THE POSTS: </p>
+    {% for project in all%}
+    <ul>
+        <li><a  href="{%url 'onepost' project.id%}">{{project.title}}</a></li>
+
+    </ul>
+
+    {%endfor%}
+
+{% endblock%}

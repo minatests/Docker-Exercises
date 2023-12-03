@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} AUTHORS {% endblock %} 
+{% block content%}
+    <p>THESE ARE THE AUTHORS: </p>
+    {% for author in all%}
+    <ul>
+        <li> <img src="{{ author.dp.url }}" alt="Profile Photo" width="40" height="40" >
+            <a  href="{%url 'oneauthor' author.id%}">{{author.name}}</a></li>
+
+    </ul>
+
+
+    {%endfor%}
+
+{% endblock%}

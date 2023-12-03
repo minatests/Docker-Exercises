@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} CATEGORIES {% endblock %} 
+{% block content%}
+    <p>THESE ARE THE CATEGORIES: </p>
+    {% for cat in all%}
+    <ul>
+        <li><a  href="{%url 'onecategory' cat.id%}">{{cat.name}}</a></li>
+
+    </ul>
+
+    {%endfor%}
+
+{% endblock%}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} YOUR CATEGORY {% endblock %} 
+{% block content%}
+
+    <h4>{{one_category.name}}</h4>
+    <h4>DESCRIPTION : {{one_category.description}}</h4>
+    
+    {% for post in one_category.post_set.all %}
+    <ul>
+        <li>    <a href="{%url 'onepost' post.id%}">{{post}}</a></li>
+
+    </ul>
+
+    {%endfor%}
+
+{% endblock%}

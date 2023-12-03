@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} AUTHORS {% endblock %} 
+{% block content%}
+    <p>THESE ARE THE COMMENTS: </p>
+    {% for comment in all%}
+    <h3>content : {{comment.content}}</h3>
+    <small>author : {{comment.author}}</small>
+    <small>date : {{comment.date}}</small>
+    
+
+
+    {%endfor%}
