@@ -1,6 +1,6 @@
 # Welcome to My PostgreSQL Dockerized Database
 
-[![Maintainer](https://img.shields.io/badge/Maintainer-Your%20Name-blue)](mailto:fattahi123m@gmail.com)
+[![Maintainer](https://img.shields.io/badge/Maintainer-MinaFatahi-blue)](mailto:fattahi123m@gmail.com)
 
 This repository provides a Dockerized PostgreSQL database with initialization scripts.
 
