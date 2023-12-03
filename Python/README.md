@@ -1,6 +1,6 @@
 # Welcome to My Python Dockerized Application 🐍🐳
 
-[![Maintainer](https://img.shields.io/badge/Maintainer-Your%20Name-blue)](mailto:fattahi123m@gmail.com)
+[![Maintainer](https://img.shields.io/badge/Maintainer-MinaFatahi-blue)](mailto:fattahi123m@gmail.com)
 
 This repository contains a simple Python application that greets the user by asking for their name and prints a personalized message.
 
